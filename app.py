@@ -239,9 +239,9 @@ st.markdown("<br>", unsafe_allow_html=True)
 st.markdown("##### 📌 종합 산출 기준 점수")
 kpi1, kpi2, kpi3, kpi4 = st.columns(4)
 kpi1.metric("기준 1 (환산점수 합계)", f"{u.get('기준1', 0):.2f}")
-kpi2.metric("기준 2 (전투력 환산 Z)", f"{u.get('기준2', 0):.2f}")
+kpi2.metric("기준 2 (클랜전 환산 Z)", f"{u.get('기준2', 0):.2f}")
 kpi3.metric("기준 3 (기부 환산 Z)", f"{u.get('기준3', 0):.2f}")
-kpi4.metric("기준 4 (종합 환산점수)", f"{u.get('기준4', 0):.2f}")
+kpi4.metric("기준 4 (최종 환산점수)", f"{u.get('기준4', 0):.2f}")
 
 st.markdown("---")
 
